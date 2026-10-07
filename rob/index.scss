@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+/* FUNDO PRINCIPAL */
+
+.rob {
+    min-height: 100vh;
+    padding: 30px 20px;
+}
+
+/* SEÇÕES */
+
+section {
+    width: 500px;
+    max-width: 100%;
+    margin: 25px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+section h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #555;
+    font-size: 25px;
+}
+
+section h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 28px;
+}
+
+
+section input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+
+section button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section button:hover {
+    background-color: #0056b3;
+}
+
+/* INPUT DE COR */
+
+section input[type="color"] {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: 10px auto 0;
+    padding: 3px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* CHECKBOX */
+
+section input[type="checkbox"] {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px auto 0;
+    cursor: pointer;
+}
+
+
+
+
+
+.calculadora-soma h2 {
+    color: #14862f;
+}
+
+.calculadora-soma .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.calculadora-soma .input input {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.calculadora-soma .input div {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.calculadora-soma button {
+    margin-top: 20px;
+    background-color: #1c7e32;
+}
+.calculadora-subtracao .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.calculadora-subtracao .input input {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.calculadora-subtracao h2 {
+    color: #000000;
+}
+
+.calculadora-subtracao button {
+    margin-top: 20px;
+    background-color: #000000;
+}
+
+
+.calculadora-divisao h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #8f0101;
+    font-size: 28px;
+}
+
+.calculadora-divisao .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.calculadora-divisao .input input {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    outline: none;
+}
+
+.calculadora-divisao .input input:focus {
+    border-color: #000;
+}
+
+.calculadora-divisao .input div {
+    font-size: 20px;
+    font-weight: bold;
+    color: #681414;
+}
+
+.calculadora-divisao button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ac0707;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.calculadora-multiplicacao h2 {
+    color: #1ba2b9;
+}
+
+.calculadora-multiplicacao .input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.calculadora-multiplicacao .input input {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.calculadora-multiplicacao .input div {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+
